@@ -1,0 +1,38 @@
+button {
+  position: absolute;
+  top: 30%;
+  left: 25%;
+}
+.inner-text {
+  color: #fff;
+  font-size: 40px;
+}
+
+.hover{
+display: none;
+}
+
+.btn:hover .hover{
+display: inline;
+}
+
+.btn:hover .normal{
+display: none;
+}
+
+.btn {
+  background-color: red;
+}
+
+.btn:hover {
+  background: #f56500;
+}
+
+.btn--circle {
+  border-radius: 50%;
+  line-height: 200px;
+  width: 200px;
+  height: 200px;
+  padding: 0;
+}
+
